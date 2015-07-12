@@ -69,7 +69,7 @@ class Empty extends Game {
 				possibleDirections.push("E");
 			}
 			
-			if (possibleDirections.length>0) {
+			if (possibleDirections.length > 0) {
 				var move = Std.random(possibleDirections.length);
 				switch(possibleDirections[move]) {
 					case "N":
