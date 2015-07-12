@@ -12,8 +12,8 @@ class Empty extends Game {
 	var mazeHeight = 48;
 	var tileSize = 10;
 	var mazeImage:Image;
-	var posX:Int = 1;
-	var posY:Int = 1;
+	var posX = 1;
+	var posY = 1;
 	var moves:Array<Int>;
 
 	public function new() {
