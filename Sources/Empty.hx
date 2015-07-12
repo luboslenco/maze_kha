@@ -85,8 +85,8 @@ class Empty extends Game {
 						maze[posX][posY - 1] = 0;
 						posY -= 2;
 					case "E":
-						maze[posX][posY + 2]=0;
-						maze[posX][posY + 1]=0;
+						maze[posX][posY + 2] = 0;
+						maze[posX][posY + 1] = 0;
 						posY += 2;
 				}
 				moves.push(posY + posX * mazeWidth);   
